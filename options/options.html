@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePal Helper - Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../icons/icon48.png" alt="CodePal Helper" class="logo">
+      <div>
+        <h1>CodePal Helper</h1>
+        <p class="subtitle">Extension Settings</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>General Settings</h2>
+          
+      <div class="setting-group">
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="autoHighlight">
+            <span class="checkmark"></span>
+            <div class="setting-text">
+              <strong>Auto-highlight code blocks</strong>
+              <p>Automatically highlight code blocks when visiting new pages</p>
+            </div>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="showNotifications">
+            <span class="checkmark"></span>
+            <div class="setting-text">
+              <strong>Show notifications</strong>
+              <p>Display notifications when actions are completed</p>
+            </div>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="contextMenu">
+            <span class="checkmark"></span>
+            <div class="setting-text">
+              <strong>Enable context menu</strong>
+              <p>Add CodePal options to the right-click menu</p>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Appearance</h2>
+          
+      <div class="setting-group">
+        <div class="setting-item">
+          <label for="highlightColor" class="setting-text">
+            <strong>Highlight Color</strong>
+            <p>Choose the color for highlighting code blocks</p>
+          </label>
+          <input type="color" id="highlightColor" value="#1a73e8">
+        </div>
+
+        <div class="setting-item">
+          <label for="notificationPosition" class="setting-text">
+            <strong>Notification Position</strong>
+            <p>Where to show notifications on the page</p>
+          </label>
+          <select id="notificationPosition">
+            <option value="top-right">Top Right</option>
+            <option value="top-left">Top Left</option>
+            <option value="bottom-right">Bottom Right</option>
+            <option value="bottom-left">Bottom Left</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Advanced</h2>
+          
+      <div class="setting-group">
+        <div class="setting-item">
+          <label for="excludedSites" class="setting-text">
+            <strong>Excluded Sites</strong>
+            <p>Sites where the extension should not run (one per line)</p>
+          </label>
+          <textarea id="excludedSites" placeholder="example.com&#10;google.com"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="saveBtn" class="primary-btn">Save Settings</button>
+      <button id="resetBtn" class="secondary-btn">Reset to Defaults</button>
+      <button id="exportBtn" class="secondary-btn">Export Settings</button>
+      <button id="importBtn" class="secondary-btn">Import Settings</button>
+    </div>
+
+    <div class="footer">
+      <div class="version-info">
+        <p>Version 1.0.0</p>
+        <p><a href="#" id="changelog">View Changelog</a></p>
+      </div>
+      <div class="links">
+        <a href="#" id="helpLink">Help</a>
+        <a href="#" id="feedbackLink">Send Feedback</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="status" class="status hidden"></div>
+  <input type="file" id="importFile" accept=".json" style="display: none;">
+      
+  <script src="options.js"></script>
+</body>
+</html>

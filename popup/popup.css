@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #5f6368;
+}
+
+.action-btn {
+  width: 100%;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+  background: #1557b0;
+}
+
+.action-btn:active {
+  background: #1143a3;
+}
+
+.secondary-btn {
+  padding: 8px 16px;
+  background: #f1f3f4;
+  color: #5f6368;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: all 0.2s;
+}
+
+.secondary-btn:hover {
+  background: #e8eaed;
+  border-color: #c4c7c5;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 0;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 13px;
+  color: #5f6368;
+}
+
+.value {
+  font-size: 13px;
+  color: #202124;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.setting-item {
+  margin-bottom: 12px;
+}
+
+.setting-item label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.setting-item input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  padding-top: 12px;
+  border-top: 1px solid #e1e5e9;
+  text-align: center;
+}
+
+.status {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.status.success {
+  background: #e8f5e8;
+  color: #137333;
+  border: 1px solid #ceead6;
+}
+
+.status.error {
+  background: #fce8e6;
+  color: #d93025;
+  border: 1px solid #f9dedc;
+}

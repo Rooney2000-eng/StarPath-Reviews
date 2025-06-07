@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePal Helper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../icons/icon48.png" alt="CodePal Helper" class="logo">
+      <h1>CodePal Helper</h1>
+    </div>
+        
+    <div class="section">
+      <h3>Quick Actions</h3>
+      <button id="highlightBtn" class="action-btn">Highlight Code</button>
+      <button id="extractLinksBtn" class="action-btn">Extract Links</button>
+      <button id="countWordsBtn" class="action-btn">Count Words</button>
+    </div>
+
+    <div class="section">
+      <h3>Page Info</h3>
+      <div class="info-item">
+        <span class="label">URL:</span>
+        <span id="currentUrl" class="value">Loading...</span>
+      </div>
+      <div class="info-item">
+        <span class="label">Title:</span>
+        <span id="currentTitle" class="value">Loading...</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Settings</h3>
+      <div class="setting-item">
+        <label for="autoHighlight">
+          <input type="checkbox" id="autoHighlight">
+          Auto-highlight code blocks
+        </label>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button id="optionsBtn" class="secondary-btn">Options</button>
+      <button id="aboutBtn" class="secondary-btn">About</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

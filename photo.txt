@@ -1,0 +1,47 @@
+StarPath Reviews - Image Generation Prompts
+Background Images (1920x1080px - Hero/Fullscreen)
+1. Hero Background (hero-bg.jpg)
+
+2. About Page Background (about-bg.jpg)
+
+3. Google Offers Background (google-bg.jpg)
+
+4. Booking Offers Background (booking-bg.jpg)
+
+5. Contact Page Background (contact-bg.jpg)
+
+Package Icons (400x300px - Product Cards)
+6. Google 10 Reviews (google-10.png)
+
+7. Google 20 Reviews (google-20.png)
+
+8. Google 50 Reviews (google-50.png)
+
+9. Booking 10 Reviews (booking-10.png)
+
+10. Booking 20 Reviews (booking-20.png)
+
+11. Booking 50 Reviews (booking-50.png)
+
+Before/After Comparison Images (800x400px)
+12. Google Before/After (google-before-after.jpg)
+
+13. Booking Before/After (booking-before-after.jpg)
+
+14. About Page Success Story (about-success.jpg)
+
+Social Media Icons (64x64px)
+15. Facebook Icon (facebook.png)
+
+16. WhatsApp Icon (whatsapp.png)
+
+17. Gmail Icon (gmail.png)
+
+Favicon (32x32px)
+18. StarPath Favicon (favicon.ico)
+Technical Specifications:
+Web Optimization: All images should be optimized for web use
+Color Scheme: Primarily blue (#007bff), white, and gold for stars
+Style: Professional, clean, modern business aesthetic
+Brand Consistency: Maintain consistent visual identity across all images
+Mobile Friendly: Images should look good on both desktop and mobile devices

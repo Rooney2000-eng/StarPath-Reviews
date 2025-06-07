@@ -1,0 +1,197 @@
+
+
+---
+
+🔥 Final Prompt — Professional Website Creation for “StarPath Reviews”
+
+> Design a modern, clean, and visually appealing static website for StarPath Reviews, a company specialized in boosting business ratings on Google Maps and Booking.com through verified, high-quality positive reviews. The goal is to build trust with potential clients and encourage them to purchase rating boost packages.
+
+The entire website must be coded using pure HTML, CSS, and JavaScript only (no frameworks). It must be responsive and mobile-friendly, with transitions and animations to create a smooth user experience.
+
+
+
+
+---
+
+🧭 Website Structure (5 Pages):
+
+1. Home Page (index.html)
+
+Purpose: Introduce the company and guide users to explore the services. Includes:
+
+Fullscreen hero section with a background image.
+
+Headline: “Boost Your Business with Authentic Reviews on Google Maps and Booking.com”
+
+Subheading: “We help businesses grow their online credibility through verified positive ratings.”
+
+3 main buttons:
+
+“Google Reviews Offers”
+
+“Booking.com Offers”
+
+“Contact Us”
+
+
+Social media icons (Facebook, WhatsApp, Gmail).
+
+Smooth hover and transition effects.
+
+Footer with contact and icons.
+
+
+
+---
+
+2. About Page (about.html)
+
+Purpose: Build trust and explain the company’s purpose. Includes:
+
+Background image related to trust, business growth, or digital marketing.
+
+Section 1: "Our Mission" — short paragraph on helping businesses succeed.
+
+Section 2: "How We Work" — explain how reviews are placed professionally, from real verified accounts.
+
+Section 3: "Why Choose StarPath" — 3–4 bullet points like:
+
+Verified Accounts Only ✅
+
+Fast Results 🕒
+
+Safe & Secure Delivery 🔐
+
+Affordable Packages 💰
+
+
+Photo showing before/after business ratings (e.g., a business at 2.8 stars rising to 4.7).
+
+
+
+---
+
+3. Google Reviews Offers (offers-google.html)
+
+Purpose: Sell rating packages for Google Maps. Includes:
+
+Title: “Boost Your Google Business Ratings”
+
+Offer cards (with icons, images, and price):
+
+🔹 10 Google Reviews – 100 MAD
+Image: google-10.png
+
+🔹 20 Google Reviews – 250 MAD
+Image: google-20.png
+
+🔹 50 Google Reviews – 550 MAD
+Image: google-50.png
+
+
+Each card must include:
+
+Small description like: “Ideal for small businesses looking to improve local visibility on Google Maps.”
+
+CTA button: “Order Now”
+
+
+Before/After image for Google Maps (e.g., star rating screenshot comparison).
+
+Background image matching the theme.
+
+
+
+---
+
+4. Booking.com Reviews Offers (offers-booking.html)
+
+Purpose: Sell rating packages for Booking.com. Structure same as Google offers, just change images and content:
+
+🔹 10 Booking Reviews – 100 MAD
+Image: booking-10.png
+
+🔹 20 Booking Reviews – 250 MAD
+Image: booking-20.png
+
+🔹 50 Booking Reviews – 550 MAD
+Image: booking-50.png
+
+Text: “Ideal for hotels and property owners looking to build trust and attract more guests.”
+
+Before/After image for Booking.
+
+Theme-appropriate background.
+
+
+
+---
+
+5. Contact Page (contact.html)
+
+Purpose: Allow potential clients to reach out. Includes:
+
+Background image showing communication or office/business atmosphere.
+
+Contact form (using Formspree):
+
+Full Name
+
+Email
+
+Message
+
+
+Company contact details:
+
+📞 +212 645-089208
+
+📧 StarPathreviews@gmail.com
+
+
+Social icons (Facebook, WhatsApp, Gmail) clearly visible.
+
+Smooth styled input fields and submit button with animations.
+
+
+
+---
+
+🖼️ Required Assets (Images & Icons):
+
+Put all these images inside /images folder:
+
+Purpose	Filename
+
+Hero background	hero-bg.jpg
+About background	about-bg.jpg
+Contact background	contact-bg.jpg
+Google Offer 10	google-10.png
+Google Offer 20	google-20.png
+Google Offer 50	google-50.png
+Booking Offer 10	booking-10.png
+Booking Offer 20	booking-20.png
+Booking Offer 50	booking-50.png
+Before/After Google	before-google.jpg, after-google.jpg
+Before/After Booking	before-booking.jpg, after-booking.jpg
+Icons (PNG/SVG)	whatsapp.png, facebook.png, gmail.png, star.png, map.png, contact.png
+
+
+
+---
+
+✅ Extra Features You Must Include:
+
+Smooth scrolling and transitions.
+
+Hover effects on offers and links.
+
+All text must be written in professional English and aligned with the service message (e.g. growth, trust, fast delivery).
+
+Use Google Fonts or nice clean system fonts.
+
+Footer should exist on all pages.
+
+Responsive layout (desktop/tablet/mobile).
+
+
